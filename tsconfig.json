@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "target": "ES2020",
+    "module": "ESNext",
+    "outDir": "./dist",               // Output directory for compiled files
+    "strict": true,                   // Enable strict type-checking
+    "esModuleInterop": true,          // Support for CommonJS interop
+    "moduleResolution": "node",       // Use Node.js module resolution
+    "skipLibCheck": true,             // Skip type-checking declaration files
+    "allowJs": true,                  // Allow JavaScript files in the build
+    "checkJs": false                  // Do not type-check JavaScript files
+  },
+  "include": ["index.js"],            // Include the main file for compilation
+  "exclude": ["node_modules"]         // Exclude unnecessary files and folders
+}
